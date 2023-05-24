@@ -1,0 +1,64 @@
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303841;
+    height: 100vh;
+    justify-content: center;
+}
+.heading{
+    position: absolute;
+    top: 50px;
+    color: #89f2ac;
+    font-size: 35px;
+}
+.advice-box{
+    background-color:#435055;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Kalam', cursive;
+    height:60%;
+    width: 40%;
+    border-radius: 15px;
+    position: relative;
+    align-items: center;
+    top: 20px;
+}
+
+
+.advice-box h2{
+   color: #A3F7BF;
+   font-family:  sans-serif ,'Poppins';
+}
+.advice-box p{
+    font-size: 27px;
+    font-weight: bold;
+    color: #a9e0dc;
+    margin: 26px;
+    padding: 0 20px;
+ }
+ .advice-box button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    bottom: 15px;
+    color: #16847c;
+    font-weight: bold;
+    font-size: 15px;
+ }
+
+ .advice-box button:hover{
+    box-shadow: #A3F7BF 2px 2px 15px;
+ }
+
+ @media screen and (max-width:600px){
+    .advice-box{
+        
+        height: 45%;
+        width: 80%;
+        
+    }
+ }
