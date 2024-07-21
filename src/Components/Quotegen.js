@@ -16,6 +16,7 @@ function Quotegen() {
 
   useEffect(() => {
     fetchApi();
+    // eslint-disable-next-line
   }, []);
 
   function handleFectchApi(){
